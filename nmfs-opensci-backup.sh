@@ -181,7 +181,3 @@ unlock_repo $bk_id
 delete_archive $bk_id
 echo $(date) ": Backup complete" >> $LOG
 
-#
-# FUNCTIONS
-#
-# Function to backup a repository
