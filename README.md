@@ -28,9 +28,9 @@ Done.
 ## Changing the script to take org name as a parameter
 
 * Change this line in the script `ORG_NAME="nmfs-opensci"` to `ORG_NAME="$1"`
-* Change
-* Create the necessary directories for each org name
+* Whereever `githubBackup` appears in the script, replace with `$1`
 * Change this line in the crontab file from `0 15 * * 4 bash nmfs-opensci-backup.sh` to `0 15 * * 4 bash nmfs-opensci-backup.sh your-org-name`
+* Create the necessary directories for each org name. It needs to match whatever `your-org-name` is.
 
 So now you can add many lines to the crontab file like so
 ```
