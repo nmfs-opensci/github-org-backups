@@ -10,7 +10,7 @@ ORG_NAME="nmfs-opensci"
 
 # A personal access token for your GH org
 # that has the `read:user` and `read:org` scopes
-ACCESS_TOKEN="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"
+ACCESS_TOKEN="ghp_caYDXXXXXX"
 
 # The API version to use
 API_VERSION="2022-11-28"
