@@ -27,5 +27,5 @@ Done.
 
 ## Changing the script to take org name as a parameter
 
-* Change 
-* echo "Username: $1"
+* Change this line in the script `ORG_NAME="nmfs-opensci"` to `ORG_NAME="$1"`
+* Change this line in the crontab file from `` to ``
