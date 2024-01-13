@@ -24,3 +24,8 @@ This shows you how to create a VM and set-up automatic GitHub organization backu
 10. Create a cron job with `crontab -e` and paste in the info in the `crontab` file
 
 Done.
+
+## Changing the script to take org name as a parameter
+
+* Change 
+* echo "Username: $1"
